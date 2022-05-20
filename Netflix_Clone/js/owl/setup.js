@@ -16,5 +16,6 @@ $('.owl-carousel').owlCarousel({
 })
 
 function assistirAgora(){
-    
+    var element = document.getElementById('video');
+    element.innerHTML = '<a data-popup="true" href="https://www.youtube.com/embed/oYXCjJa_aBg" data-href="https://www.youtube.com/embed/oYXCjJa_aBg" data-size="md" data-draggable="true"></a>'
 }
