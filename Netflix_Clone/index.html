@@ -37,8 +37,8 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">MORBIUS</h3>
-                <p class="descricao">Durante um experimento para encontrar a cura de uma rara doença sanguínea, o Dr. Michael Morbius acidentalmente se transforma num sanguinário vampiro.</p>
+                <h3 class="titulo" id="titulo">MORBIUS</h3>
+                <p class="descricao" id="descricao">Durante um experimento para encontrar a cura de uma rara doença sanguínea, o Dr. Michael Morbius acidentalmente se transforma num sanguinário vampiro.</p>
                 <div class="botoes">
                     <button role="button" class="botao" onclick="assistirAgora()">
                         <i class="fa-solid fa-play"></i>
@@ -59,35 +59,38 @@
 
     <div class="carousel-filmes">
         <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img src="/Netflix_Clone/img/min01.jpg" alt="">
+            <div class="item" onclick="principal('morbius')">
+                <img src="/Netflix_Clone/img/min00.jpg" alt="Morbius">
             </div>
-            <div class="item">
-                <img src="/Netflix_Clone/img/min02.jpg" alt="">
+            <div class="item" onclick="principal('kardashians')">
+                <img src="/Netflix_Clone/img/min01.jpg" alt="The Kardashians">
             </div>
-            <div class="item">
-                <img src="/Netflix_Clone/img/min03.jpg" alt="">
+            <div class="item" onclick="principal('exorcism')">
+                <img src="/Netflix_Clone/img/min02.jpg" alt="The Exorcism of God">
             </div>
-            <div class="item">
-                <img src="/Netflix_Clone//img/min04.jpg" alt="">
+            <div class="item" onclick="principal('palhaco')">
+                <img src="/Netflix_Clone/img/min03.jpg" alt="O Palhaço Assasino">
             </div>
-            <div class="item">
-                <img src="/Netflix_Clone/img/min05.jpg" alt="">
+            <div class="item" onclick="principal('passion')">
+                <img src="/Netflix_Clone//img/min04.jpg" alt="Passion de Galvilanes">
             </div>
-            <div class="item">
-                <img src="/Netflix_Clone/img/min06.jpg" alt="">
+            <div class="item" onclick="principal('sonic')">
+                <img src="/Netflix_Clone/img/min05.jpg" alt="Sonic 2">
             </div>
-            <div class="item">
-                <img src="/Netflix_Clone/img/min07.jpg" alt="">
+            <div class="item" onclick="principal('silverton')">
+                <img src="/Netflix_Clone/img/min06.jpg" alt="Silverton: Cerco Fechado">
             </div>
-            <div class="item">
-                <img src="/Netflix_Clone/img/min08.jpg" alt="">
+            <div class="item" onclick="principal('twd')">
+                <img src="/Netflix_Clone/img/min07.jpg" alt="TWD">
             </div>
-            <div class="item">
-                <img src="/Netflix_Clone/img/min09.jpg" alt="">
+            <div class="item" onclick="principal('halo')">
+                <img src="/Netflix_Clone/img/min08.jpg" alt="Halo">
             </div>
-            <div class="item">
-                <img src="/Netflix_Clone/img/min10.jpg" alt="">
+            <div class="item" onclick="principal('batman')">
+                <img src="/Netflix_Clone/img/min09.jpg" alt="Batman">
+            </div>
+            <div class="item" onclick="principal('magia')">
+                <img src="/Netflix_Clone/img/min10.jpg" alt="O Som da Magia">
             </div>
         </div>
     </div>
@@ -95,6 +98,7 @@
     <script src="../Netflix_Clone/js/owl/jquery.min.js"></script>
     <script src="../Netflix_Clone/js/owl/owl.carousel.min.js"></script>
     <script src="/Netflix_Clone/js/owl/setup.js"></script>
+    <script src="/Netflix_Clone/js/main.js"></script>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
