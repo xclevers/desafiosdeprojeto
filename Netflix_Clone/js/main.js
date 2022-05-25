@@ -3,16 +3,15 @@ function principal(filme){
         case 'morbius':
             document.getElementById("titulo").innerHTML = 'Morbius'
             document.getElementById("descricao").innerHTML = 'Durante um experimento para encontrar a cura de uma rara doença sanguínea, o Dr. Michael Morbius acidentalmente se transforma num sanguinário vampiro.'
-            document.getElementsByClassName("filme-principal")[0].style.backgroundImage = "url(../img/capa_morbius.jpg)";
+            document.getElementById("filmePrincipal").style.backgroundImage = "linear-gradient(to left, transparent 0%, black 80%), url(../img/capa_the_exorcism_of_god.jpg)";
             break
         case 'kardashians':
             document.getElementById("titulo").innerHTML = 'The Kardashians'
             document.getElementById("descricao").innerHTML = 'A família que você conhece e adora está de volta com uma nova série, dando acesso total às suas vidas. Kris, Kourtney, Kim, Khloé, Kendall e Kylie trazem as câmeras de volta para revelar a verdade por trás das manchetes.'
-            document.getElementsByClassName("filme-principal")[0].setAttribute("style", "background-image: linear-gradient(to left, transparent 0%, black 80%), url(../img/capa_morbius.jpg)");
             break
         case 'exorcism':
-            document.getElementById("titulo").innerHTML = 'Exorcismo Sagrado'
-            document.getElementById("descricao").innerHTML = 'Ao ser possuído durante um ritual de exorcismo, o padre Peter Williams acabou cometendo um terrível sacrilégio. Dezoito anos depois, as consequências de seu pecado voltam para assombrá-lo e acabam desencadeando uma batalha ainda maior entre o bem e o mal.'
+            document.getElementById("titulo").innerHTML = 'Exorcismo Sagrado';
+            document.getElementById("descricao").innerHTML = 'Ao ser possuído durante um ritual de exorcismo, o padre Peter Williams acabou cometendo um terrível sacrilégio. Dezoito anos depois, as consequências de seu pecado voltam para assombrá-lo e acabam desencadeando uma batalha ainda maior entre o bem e o mal.';
             break
         case 'palhaco':
             document.getElementById("titulo").innerHTML = 'Palhaço Assasino'

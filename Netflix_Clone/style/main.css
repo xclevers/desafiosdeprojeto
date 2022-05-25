@@ -91,7 +91,6 @@ header nav a:hover{
 
 .container{
     margin: 20px;
-    background-color: yellow;
     width: auto;
 }
 
@@ -115,7 +114,6 @@ header nav a:hover{
     margin: 20px;
     width: 500px;
     height: 300px;
-    background-color: #e50914;
     align-items: flex-start;
     justify-content: center;
 }
