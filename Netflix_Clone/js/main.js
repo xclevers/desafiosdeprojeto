@@ -56,17 +56,17 @@ function principal(filme){
         case 'magia':
             movie = 'O Som da Magia'
             descricao = 'Um mágico misterioso que mora em um parque de diversões abandonado ensina sua arte para uma adolescente que enfrenta dificuldades na vida.'
-            locale = "linear-gradient(to left, transparent 0%, black 80%), url('../img/capa_o_som_da_magia.jpg')";
+            locale = "linear-gradient(to left, transparent 0%, black 80%), url(../img/capa_o_som_da_magia.jpg)";
             break
         default:
             movie = 'Morbius'
             descricao = 'Durante um experimento para encontrar a cura de uma rara doença sanguínea, o Dr. Michael Morbius acidentalmente se transforma num sanguinário vampiro.'
-            locale = "linear-gradient(to left, transparent 0%, black 80%), url('../img/capa_morbius.jpg')";
+            locale = "linear-gradient(to left, transparent 0%, black 80%), url(../img/capa_morbius.jpg)";
     }
 
     document.getElementById("titulo").innerHTML = movie;
     document.getElementById("descricao").innerHTML = descricao;
-    document.getElementById("filmePrincipal").style.backgroundImage = locale;
+    document.getElementById("filme-principal").style.backgroundImage = locale;
 
 
 }
